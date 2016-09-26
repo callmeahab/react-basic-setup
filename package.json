@@ -1,6 +1,6 @@
 {
-  "name": "znaci-riekt-brade",
-  "version": "0.0.0",
+  "name": "react-basic-setup",
+  "version": "0.0.1",
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot --port=3333",
+    "dev": "webpack-dev-server --content-base src --inline --hot --port=3333",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
